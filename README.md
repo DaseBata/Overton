@@ -35,7 +35,7 @@ Architecture Flask :
         /script_join.py
 
 
-### 2) Faaire l'une des commandes suivantes pour joindre les fichiers du dossier data en un seul :
+### 2) Faire l'une des commandes suivantes pour joindre les fichiers du dossier data en un seul :
 
 - py script_join.py
 - python script_join.py
