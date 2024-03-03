@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e0cfd3;
+    color: black;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+.tableur {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.dataframe {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border: 1px solid #b9b4b4;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+.dataframe > thead {
+    height: 80px;
+}
+
+.dataframe > thead > tr > th {
+    text-align: center;
+}
+
+.dataframe > tbody > tr {
+    height: 50px;
+}
+
+.dataframe > tbody > tr > td {
+    padding-left: 15px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    padding: 0;
+
+}
+
+nav {
+    width: 250px;
+    height: 100vh;
+    background-color: #f6efe9;
+    border-radius: 0 20px 20px 0;
+}
+
+.nav-content{
+    position: relative;
+    top: 30%
+}
+.nav-content > .menu-title {
+    margin-left: 22px;
+    margin-bottom: 30px;
+}
+
+.underline {
+    width: 100px;
+    height: 5px;
+    background-color: #6c5ce7;
+    position: relative;
+    top: -15px;
+}
+
+.menu-btn {
+    width: 90%;
+    height: 60px;
+    margin: auto;
+    border-radius: 17px;
+    font-size: 20px;
+    color:black;
+    box-sizing: border-box;
+    transition: 0.3s ease-in-out;
+    padding-left: 10px;
+    background-color: #f6efe9;
+}
+
+.menu-btn-content {
+    position: relative;
+    top: 32%;
+}
+
+.menu-btn-content > span {
+    position: relative;
+    top: -3px;
+    font-weight: 700;
+}
+
+.menu-btn-content > i {
+    margin-right: 20px;
+}
+
+.menu-btn:hover {
+    background-color: #6c5ce7;
+    color:white;
+    padding-left: 15px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.page {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.box-top {
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    border-radius: 15px 15px 0 0;
+    color: white;
+    background: #6c5ce7;
+
+}
+
+.box-stat-numbers > h1{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.box-statistics {
+    width: 800px;
+    height: 150px;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    top: -82px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.box-stat {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 30%;
+}
+
+.box-stat > i {
+    font-size: 60px;
+    margin-right: 20px;
+    color: #2ecc71;
+}
+
+.box-stat-numbers {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 5px;
+}
+
+.box-stat-numbers > h2 {
+    margin: 0;
+    font-weight: 800;
+}
+
+.box-stat-numbers > span {
+    color: #b9b9b9;
+    font-weight: bold;
+}
+
+.box-separator {
+    height: 70px;
+    width: 3px;
+    background-color: #d5d2d2;
+    margin-right: 30px;
+    margin-left: 30px;
+    position: relative;
+    top: 25%;
+}
+
+.page-content {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.plot-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.plot {
+    height: 500px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.plot-40 {
+    width: 40%;
+}
+
+.plot-60 {
+    width: 60%;
+}
+
+.plot-100 {
+    width: 100%;
+}
+
+.plot-50 {
+    width: 48%;
+}
