@@ -15,37 +15,34 @@ Les instructions suivantes doivent être effectuées dans un terminal
 - git clone https://github.com/DaseBata/Overton
 
 ## Mettre les données en forme pour le dashBoard :
-### 1) Se mettre dans le dossier Overton_file :
+### 1) Se mettre dans le dossier Flask du dossier Overton :
 
-- cd Overton_file
+- cd Overton/Flask
 
-Architecture :
+Architecture Overton :
 
-    /Overton_file
-        /data
-        /script_join.py
+    /Overton
+        /Flask
+        /README.md
 
-### 2) Executer le script qui joint les fichiers entre eux :
-
-- py script_join.py
-
-## Lancer le dashboard :
-
-### 1) Se mettre dans le dossier Flask :
-
-- cd ..
-- cd Flask
-
-Architecture :
+Architecture Flask :
 
     /Flask
+        /data
         /static
         /templates
         /flask_overton.py
-        /overton.jsonl
-        /test.py
+        /script_join.py
 
-### 2) Faire l'une des commandes suivantes :
+
+### 2) Faaire l'une des commandes suivantes pour joindre les fichiers du dossier data en un seul :
+
+- py script_join.py
+- python script_join.py
+
+## Lancer le dashboard :
+
+### 1) Faire l'une des commandes suivantes :
 
 En restant dans le dossier Flask précédemment décrit
 
@@ -53,6 +50,11 @@ En restant dans le dossier Flask précédemment décrit
 
 - python flask_overton.py
 
-### 3) Affichage dans le navigateur
+### 2) Affichage dans le navigateur
 
 Faites un CTR + Clic sur l'url en dessous de la commande dans le terminal (surement juste en dessous d'un warning rouge)
+
+Ex :
+
+<span style="color: #FF0000">WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.</span>\
+\* Running on http://127.0.0.1:5000
